@@ -1,4 +1,4 @@
-# `draft-js-prism-plugin`
+# `draft-js-prism-plugin-ng`
 
 A DraftJS plugin to add syntax highlighting support to your code blocks. Use in combination with [`draft-js-plugins`](https://github.com/draft-js-plugins/draft-js-plugins).
 
@@ -9,7 +9,7 @@ First, create the plugin and add it to the `plugins` array of your PluginsEditor
 ```JS
 import Prism from 'prismjs';
 import createPrismPlugin from 'draft-js-prism-plugin';
-import "prismjs/themes/prism.css"; // add prism.css to add highlights  
+import "prismjs/themes/prism.css"; // add prism.css to add highlights
 
 class MyEditor extends React.Component {
   constructor(props) {
@@ -58,6 +58,8 @@ this.setState({
 
 ## License
 
+This is a fork of [`draft-js-prism-plugin`](https://github.com/withspectrum/draft-js-prism-plugin) with updated dependencies.
+
 This code uses the [`draft-js-prism` decorator](https://github.com/SamyPesse/draft-js-prism) by [@SamyPesse](https://github.com/SamyPesse) and is based on code extracted from the [`draft-js-markdown-shortcuts-plugin`](https://github.com/ngs/draft-js-markdown-shortcuts-plugin) by [@ngs](https://github.com/ngs).
 
-Licensed under the MIT License, Copyright ©️  2017 Space Program Inc. See [LICENSE.md](LICENSE.md) for more information.
+Licensed under the MIT License, Copyright ©️ 2017 Space Program Inc. See [LICENSE.md](LICENSE.md) for more information.
